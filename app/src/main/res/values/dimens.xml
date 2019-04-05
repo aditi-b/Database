@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_margintop">32dp</dimen>
+    <dimen name="edit_marginright">8dp</dimen>
+    <dimen name="edit_marginstart">8dp</dimen>
+    <dimen name="button_margin_start">8dp</dimen>
+    <dimen name="button_margin_top">20dp</dimen>
+    <dimen name="button_margin_end">8dp</dimen>
+    <dimen name="textview_height">80dp</dimen>
+    <dimen name="textview_marginstart">20dp</dimen>
+    <dimen name="edittext_width">213dp</dimen>
+    <dimen name="edit_margin_top">20dp</dimen>
+    <dimen name="edit_margin_end">32dp</dimen>
+    <dimen name="edit_margin_top2">20dp</dimen>
+    <dimen name="text_width">290dp</dimen>
+    <dimen name="text_height">33dp</dimen>
+    <dimen name="logout_margin_top">24dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="linear_margin_top">10dp</dimen>
+    <dimen name="linear_margin_bottom">10dp</dimen>
+    <dimen name="image_margin_top">20dp</dimen>
+    <dimen name="edit_text_height">60dp</dimen>
+    <dimen name="textview_size">36sp</dimen>
+    <dimen name="text_padding">10dp</dimen>
+    <dimen name="linear_margin">20dp</dimen>
+    <dimen name="text_height_top">70dp</dimen>
+</resources>

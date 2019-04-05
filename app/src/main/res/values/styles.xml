@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/enableButton</item>
+        <item name="colorPrimaryDark">@color/enableButton</item>
+        <item name="colorAccent">@color/enableButton</item>
+    </style>
+
+    <style name="EditTextTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_text_height</item>
+        <item name="android:layout_marginTop">@dimen/edit_marginstart</item>
+    </style>
+
+    <style name="ButtonTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:background">@drawable/shape</item>
+
+
+    </style>
+
+</resources>

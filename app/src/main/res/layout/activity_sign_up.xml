@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height_top"
+        android:background="@color/enableButton"
+        android:text="@string/sign_up"
+        android:textSize="@dimen/textview_size"
+        android:layout_marginBottom="@dimen/linear_margin_bottom"
+        android:padding="@dimen/text_padding"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/edit_margin_top2">
+
+        <EditText
+            android:id="@+id/editText1"
+            style="@style/EditTextTheme"
+            android:hint="@string/enter_name"
+            android:inputType="textPersonName"
+            android:maxLength="25" />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            style="@style/EditTextTheme"
+            android:hint="@string/enter_phone"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textinput1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/editText3"
+            style="@style/EditTextTheme"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:id="@+id/editText4"
+            style="@style/EditTextTheme"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/ButtonTheme"
+            android:textSize="@dimen/text_size"
+            android:text="@string/sign_up" />
+
+    </LinearLayout>
+
+</LinearLayout>

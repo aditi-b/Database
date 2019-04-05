@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height_top"
+        android:layout_marginBottom="@dimen/linear_margin_bottom"
+        android:background="@color/enableButton"
+        android:padding="@dimen/text_padding"
+        android:text="@string/home"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textview_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/linear_margin"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/EditTextTheme" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/EditTextTheme" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/EditTextTheme" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/ButtonTheme"
+            android:text="@string/edit"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/ButtonTheme"
+            android:text="@string/delete"
+            android:textSize="@dimen/text_size" />
+
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/ButtonTheme"
+            android:text="@string/logout"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+</RelativeLayout>

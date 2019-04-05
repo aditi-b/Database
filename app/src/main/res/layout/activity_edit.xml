@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height_top"
+        android:background="@color/enableButton"
+        android:text="@string/sign_up"
+        android:textSize="@dimen/textview_size"
+        android:layout_marginBottom="@dimen/linear_margin_bottom"
+        android:padding="@dimen/text_padding"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/edit_margin_top2">
+
+        <EditText
+            android:id="@+id/editText5"
+            style="@style/EditTextTheme"
+            android:hint="@string/enter_name"
+            android:inputType="textPersonName"
+            android:maxLength="25" />
+
+
+        <EditText
+            android:id="@+id/editText6"
+            style="@style/EditTextTheme"
+            android:hint="@string/enter_phone"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+
+        <EditText
+            android:id="@+id/editText7"
+            style="@style/EditTextTheme"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editText8"
+            style="@style/EditTextTheme"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/ButtonTheme"
+            android:textSize="@dimen/text_size"
+            android:text="@string/update" />
+
+    </LinearLayout>
+
+</LinearLayout>

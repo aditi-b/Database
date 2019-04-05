@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Create Account</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="phone">Phone</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="home">HOME</string>
+    <string name="logout">Logout</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="logo">Logo</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_fields"> Please enter all the fields</string>
+    <string name="phone_length">Phone should be of 10 digits</string>
+    <string name="password_length">Password should be minimum of 8 characters</string>
+    <string name="password_unmatch">Password doesn\'t match</string>
+    <string name="registration">Registration</string>
+    <string name="invalid_user">Not a valid user. Please sign Up</string>
+    <string name="name_only_characters">Name should contain only characters</string>
+    <string name="edit">Edit</string>
+    <string name="update">update</string>
+    <string name="delete">DELETE</string>
+</resources>
