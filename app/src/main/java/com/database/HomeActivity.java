@@ -49,9 +49,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             tvPhone.setText(cursor.getString(1));
             tvPassword.setText(cursor.getString(2));
 
-
              cursor.close();
-
     }
 
     @Override

@@ -1,9 +1,9 @@
 package com.database;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -19,7 +19,6 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     Button btnSignUp;                                                // signup button
     String nameget, phoneget, passwordget, confirmPassword;
     TextInputLayout textInputLayout;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

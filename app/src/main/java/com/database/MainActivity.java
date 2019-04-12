@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // storing the id in sharedpreferences
             editor = sharedPreferences.edit();
             editor.putInt("ID", c.getInt(0));
+            editor.putBoolean("Logged", true);
             editor.apply();
-
             Intent i = new Intent(getApplicationContext(), HomeActivity.class);
             startActivity(i);
             finish();
