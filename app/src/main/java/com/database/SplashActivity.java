@@ -8,9 +8,7 @@ import android.os.Bundle;
 
 public class SplashActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;            //shared preference for storing the id of the user
-    SharedPreferences.Editor editor;
     Boolean logged;
-    private static int SPLASH_TIME_OUT = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +17,7 @@ public class SplashActivity extends AppCompatActivity {
         sharedPreferences = getApplicationContext().getSharedPreferences("Register", 0);
         logged = sharedPreferences.getBoolean("Logged", false);
 
+        int SPLASH_TIME_OUT = 3000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
